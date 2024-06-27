@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: Gilroy, cursive, sans-serif ";
+    overflow: hidden;
+
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(342.86deg 14.29% 61.57%);
+    display: flex;
+}
+#nav{
+    position: absolute; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 390px;
+    left: 8%;
+    top: 5%;
+}
+#nav>img{
+    height: 50px;
+}
+#nav>h5{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+
+}
+
+#part2 {
+
+    height: 100%;
+    width: 67%;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color: hsla(343, 9%, 39%, 0.212)
+}
+
+#part3 {
+
+    height: 100%;
+    width: 7%;
+}
+
+#text {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0, -50%);
+    color: antiquewhite;
+}
+
+#text>h1 {
+    font-size: 90px;
+    font-family: monument;
+    font-weight: 2000px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 84px;
+}
+
+#img2 {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1529680459049-bf0340fa0755?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#v-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -55%;
+    top: -6%;
+    transform-origin: 0% 0%;
+
+}
+#v-text>h1{
+    font-size: 80px;
+    font-weight: 600px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-family: monument;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#fff;
+}
